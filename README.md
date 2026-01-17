@@ -15,12 +15,12 @@ The system processes Bharatanatyam dance videos and predicts which mudra is bein
 
 ## Key Features
 
-✅ **End-to-End Pipeline:** Video → Keypoints → Windows → LSTM → Predictions  
-✅ **Correct Label Alignment:** Fixed window-label misalignment bug from previous attempt  
-✅ **Synthetic Training Data:** Known ground truth for debugging  
-✅ **Temporal Smoothing:** Reduces noise in predictions  
-✅ **JSON + Visual Outputs:** Required format for results  
-✅ **Simple Architecture:** Bi-LSTM suitable for review (not over-engineered)
+ **End-to-End Pipeline:** Video → Keypoints → Windows → LSTM → Predictions  
+ **Correct Label Alignment:** Fixed window-label misalignment bug from previous attempt  
+ **Synthetic Training Data:** Known ground truth for debugging  
+ **Temporal Smoothing:** Reduces noise in predictions  
+ **JSON + Visual Outputs:** Required format for results  
+ **Simple Architecture:** Bi-LSTM suitable for review (not over-engineered)
 
 ## Project Structure
 
@@ -117,7 +117,7 @@ jupyter notebook notebooks/01_video_exploration.ipynb
 - Loads and displays sample frames
 - Verifies video integrity and hand visibility
 
-⚠️ **You must provide the videos before running this notebook**
+ **You must provide the videos before running this notebook**
 
 **Notebook 2: Hand Keypoint Extraction**
 ```bash
