@@ -1,6 +1,5 @@
 # Continuous Mudra Recognition in Bharatanatyam Dance Videos
 
-**First Review Submission - 20% Weightage**
 
 ## Project Overview
 
