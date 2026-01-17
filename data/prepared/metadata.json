@@ -1,0 +1,14 @@
+{
+  "label_to_idx": {
+    "Pataka": 0,
+    "Tripataka": 1
+  },
+  "idx_to_label": {
+    "0": "Pataka",
+    "1": "Tripataka"
+  },
+  "window_size": 25,
+  "step_size": 5,
+  "num_features": 63,
+  "num_classes": 2
+}

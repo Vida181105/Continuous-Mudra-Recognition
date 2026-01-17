@@ -1,0 +1,4 @@
+video_name,mudra,duration_seconds,num_frames,source,status
+pataka.mp4,Pataka,TBD,TBD,User-provided Bharatanatyam video,Requires Video
+tripataka.mp4,Tripataka,TBD,TBD,User-provided Bharatanatyam video,Requires Video
+dance_test.mp4,Mixed (Pataka + Tripataka),TBD,TBD,User-provided continuous dance video,Requires Video

@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Large files
+*.mp4
+*.mov
+*.avi
+
+# Data files (optional - comment out if you want to include them)
+# data/train_isolated/
+# data/test_continuous/
+
+# Models (optional - comment out if you want to include them)
+# models/
+# keypoints/
+
+# Outputs (optional - exclude to keep repo small)
+outputs/*.png
+outputs/*.json
