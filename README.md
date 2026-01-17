@@ -304,6 +304,4 @@ pip install mediapipe==0.10.8
 6. Create annotated mudra dataset
 
 
-**Submission Date:** January 2026  
-**Weightage:** 20% (First Review)  
-**Status:** ✅ Ready for Evaluation
+
