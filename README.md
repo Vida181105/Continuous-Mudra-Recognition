@@ -304,31 +304,6 @@ pip install mediapipe==0.10.8
 5. Deploy as real-time inference system
 6. Create annotated mudra dataset
 
-## References
-
-**MediaPipe Hands:**
-- https://google.github.io/mediapipe/solutions/hands.html
-- 21 hand landmarks: https://google.github.io/mediapipe/images/mobile/hand_landmarks.png
-
-**Bharatanatyam Mudras:**
-- Wikipedia: https://en.wikipedia.org/wiki/Mudra#Bharatanatyam_mud_ras
-- Classical Indian Dance: Various online resources
-
-**LSTM for Sequence Classification:**
-- Hochreiter & Schmidhuber (1997): LSTM paper
-- Graves (2012): Supervised Sequence Labelling with RNNs
-
-## Author Notes
-
-This implementation prioritizes **correctness and clarity** over advanced techniques. The restricted scope (2 mudras) and simple architecture ensure:
-- Easy to debug
-- Results are verifiable
-- Suitable for academic review
-- Foundation for future extensions
-
-**Key Insight:** The previous attempt likely suffered from **window-label misalignment**. This implementation carefully verifies alignment at every step (Phase 4).
-
----
 
 **Submission Date:** January 2026  
 **Weightage:** 20% (First Review)  
