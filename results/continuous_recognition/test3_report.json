@@ -1,0 +1,45 @@
+{
+  "video_info": {
+    "filename": "test3.mp4",
+    "duration": "14.0s",
+    "fps": 30.279169649248388,
+    "total_frames": 423
+  },
+  "detection_summary": {
+    "total_segments": 2,
+    "unique_mudras": 2,
+    "average_confidence": 0.97
+  },
+  "segments": [
+    {
+      "segment_id": 1,
+      "mudra": "Alapadma",
+      "start_time": "0.96s",
+      "end_time": "5.75s",
+      "duration": "4.79s",
+      "start_frame": 29,
+      "end_frame": 173,
+      "average_confidence": 0.996
+    },
+    {
+      "segment_id": 2,
+      "mudra": "Pataka",
+      "start_time": "13.18s",
+      "end_time": "13.97s",
+      "duration": "0.79s",
+      "start_frame": 399,
+      "end_frame": 422,
+      "average_confidence": 0.945
+    }
+  ],
+  "mudra_statistics": {
+    "Alapadma": {
+      "count": 1,
+      "total_duration": "4.8s"
+    },
+    "Pataka": {
+      "count": 1,
+      "total_duration": "0.8s"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "video_info": {
+    "filename": "test4.mp4",
+    "duration": "31.0s",
+    "fps": 29.531502423263326,
+    "total_frames": 914
+  },
+  "detection_summary": {
+    "total_segments": 7,
+    "unique_mudras": 3,
+    "average_confidence": 0.973
+  },
+  "segments": [
+    {
+      "segment_id": 1,
+      "mudra": "Mushti",
+      "start_time": "0.98s",
+      "end_time": "2.51s",
+      "duration": "1.52s",
+      "start_frame": 29,
+      "end_frame": 73,
+      "average_confidence": 0.953
+    },
+    {
+      "segment_id": 2,
+      "mudra": "Alapadma",
+      "start_time": "5.89s",
+      "end_time": "6.91s",
+      "duration": "1.02s",
+      "start_frame": 174,
+      "end_frame": 203,
+      "average_confidence": 1.0
+    },
+    {
+      "segment_id": 3,
+      "mudra": "Alapadma",
+      "start_time": "8.09s",
+      "end_time": "9.79s",
+      "duration": "1.69s",
+      "start_frame": 239,
+      "end_frame": 288,
+      "average_confidence": 0.972
+    },
+    {
+      "segment_id": 4,
+      "mudra": "Alapadma",
+      "start_time": "14.02s",
+      "end_time": "15.54s",
+      "duration": "1.52s",
+      "start_frame": 414,
+      "end_frame": 458,
+      "average_confidence": 0.98
+    },
+    {
+      "segment_id": 5,
+      "mudra": "Alapadma",
+      "start_time": "16.56s",
+      "end_time": "18.08s",
+      "duration": "1.52s",
+      "start_frame": 489,
+      "end_frame": 533,
+      "average_confidence": 0.968
+    },
+    {
+      "segment_id": 6,
+      "mudra": "Alapadma",
+      "start_time": "22.15s",
+      "end_time": "23.67s",
+      "duration": "1.52s",
+      "start_frame": 654,
+      "end_frame": 698,
+      "average_confidence": 0.991
+    },
+    {
+      "segment_id": 7,
+      "mudra": "Shikara",
+      "start_time": "25.53s",
+      "end_time": "29.93s",
+      "duration": "4.40s",
+      "start_frame": 754,
+      "end_frame": 883,
+      "average_confidence": 0.947
+    }
+  ],
+  "mudra_statistics": {
+    "Mushti": {
+      "count": 1,
+      "total_duration": "1.5s"
+    },
+    "Alapadma": {
+      "count": 5,
+      "total_duration": "7.3s"
+    },
+    "Shikara": {
+      "count": 1,
+      "total_duration": "4.4s"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "paths": {
+    "train_dir": "data/train_isolated",
+    "test_dir": "data/test_continuous",
+    "prepared_data": "data/prepared/mudra_dataset.npz",
+    "model_save": "models/best_model.h5",
+    "results_dir": "results"
+  },
+  "data": {
+    "sequence_length": 30,
+    "train_stride": 15,
+    "train_test_split": 0.2,
+    "augmentation_factor": 5
+  },
+  "model": {
+    "type": "auto",
+    "lstm_units": 128,
+    "attention_units": 64,
+    "dropout_rate": 0.5,
+    "learning_rate": 0.001
+  },
+  "training": {
+    "epochs": 100,
+    "batch_size": 16,
+    "early_stopping_patience": 20,
+    "reduce_lr_patience": 10
+  },
+  "recognition": {
+    "stride": 5,
+    "confidence_threshold": 0.6,
+    "smoothing_window": 7,
+    "min_segment_duration": 0.5
+  },
+  "visualization": {
+    "show_live": false,
+    "save_attention_maps": true,
+    "generate_timeline": true
+  }
+}

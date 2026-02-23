@@ -1,0 +1,55 @@
+{
+  "video_info": {
+    "filename": "test5.mp4",
+    "duration": "11.5s",
+    "fps": 31.86685962373372,
+    "total_frames": 367
+  },
+  "detection_summary": {
+    "total_segments": 3,
+    "unique_mudras": 2,
+    "average_confidence": 0.95
+  },
+  "segments": [
+    {
+      "segment_id": 1,
+      "mudra": "Shikara",
+      "start_time": "0.91s",
+      "end_time": "2.48s",
+      "duration": "1.57s",
+      "start_frame": 29,
+      "end_frame": 78,
+      "average_confidence": 0.945
+    },
+    {
+      "segment_id": 2,
+      "mudra": "Alapadma",
+      "start_time": "2.95s",
+      "end_time": "3.89s",
+      "duration": "0.94s",
+      "start_frame": 94,
+      "end_frame": 123,
+      "average_confidence": 1.0
+    },
+    {
+      "segment_id": 3,
+      "mudra": "Shikara",
+      "start_time": "5.46s",
+      "end_time": "7.81s",
+      "duration": "2.35s",
+      "start_frame": 174,
+      "end_frame": 248,
+      "average_confidence": 0.904
+    }
+  ],
+  "mudra_statistics": {
+    "Shikara": {
+      "count": 2,
+      "total_duration": "3.9s"
+    },
+    "Alapadma": {
+      "count": 1,
+      "total_duration": "0.9s"
+    }
+  }
+}
