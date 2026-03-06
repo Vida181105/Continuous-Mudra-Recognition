@@ -1,89 +1,463 @@
 {
   "video_info": {
     "filename": "test2.mp4",
-    "duration": "10.2s",
-    "fps": 42.89211685980088,
-    "total_frames": 438
+    "duration": "108.2s",
+    "fps": 30.0,
+    "total_frames": 3247
   },
   "detection_summary": {
-    "total_segments": 6,
-    "unique_mudras": 3,
-    "average_confidence": 0.849
+    "total_segments": 39,
+    "unique_mudras": 14,
+    "average_confidence": 0.877
   },
   "segments": [
     {
       "segment_id": 1,
-      "mudra": "Pataka",
-      "start_time": "1.73s",
-      "end_time": "2.42s",
-      "duration": "0.70s",
-      "start_frame": 74,
-      "end_frame": 103,
-      "average_confidence": 0.758
+      "mudra": "Alapadma",
+      "start_time": "1.47s",
+      "end_time": "2.30s",
+      "duration": "0.83s",
+      "start_frame": 44,
+      "end_frame": 68,
+      "average_confidence": 0.913
     },
     {
       "segment_id": 2,
-      "mudra": "Tripataka",
-      "start_time": "2.66s",
-      "end_time": "3.47s",
-      "duration": "0.82s",
-      "start_frame": 114,
-      "end_frame": 148,
-      "average_confidence": 0.792
+      "mudra": "shukatunda",
+      "start_time": "2.80s",
+      "end_time": "13.13s",
+      "duration": "10.33s",
+      "start_frame": 84,
+      "end_frame": 393,
+      "average_confidence": 0.998
     },
     {
       "segment_id": 3,
-      "mudra": "Alapadma",
-      "start_time": "3.47s",
-      "end_time": "4.41s",
-      "duration": "0.93s",
-      "start_frame": 149,
-      "end_frame": 188,
-      "average_confidence": 0.976
+      "mudra": "shukatunda",
+      "start_time": "18.13s",
+      "end_time": "23.47s",
+      "duration": "5.33s",
+      "start_frame": 544,
+      "end_frame": 703,
+      "average_confidence": 0.825
     },
     {
       "segment_id": 4,
-      "mudra": "Tripataka",
-      "start_time": "4.41s",
-      "end_time": "4.99s",
-      "duration": "0.58s",
-      "start_frame": 189,
-      "end_frame": 213,
-      "average_confidence": 0.664
+      "mudra": "Kapitha",
+      "start_time": "23.47s",
+      "end_time": "24.80s",
+      "duration": "1.33s",
+      "start_frame": 704,
+      "end_frame": 743,
+      "average_confidence": 0.994
     },
     {
       "segment_id": 5,
-      "mudra": "Alapadma",
-      "start_time": "5.46s",
-      "end_time": "6.50s",
-      "duration": "1.05s",
-      "start_frame": 234,
-      "end_frame": 278,
-      "average_confidence": 0.934
+      "mudra": "Chandrakala",
+      "start_time": "24.80s",
+      "end_time": "26.13s",
+      "duration": "1.33s",
+      "start_frame": 744,
+      "end_frame": 783,
+      "average_confidence": 0.817
     },
     {
       "segment_id": 6,
+      "mudra": "Kapitha",
+      "start_time": "26.47s",
+      "end_time": "27.47s",
+      "duration": "1.00s",
+      "start_frame": 794,
+      "end_frame": 823,
+      "average_confidence": 0.87
+    },
+    {
+      "segment_id": 7,
+      "mudra": "shukatunda",
+      "start_time": "27.47s",
+      "end_time": "34.97s",
+      "duration": "7.50s",
+      "start_frame": 824,
+      "end_frame": 1048,
+      "average_confidence": 0.992
+    },
+    {
+      "segment_id": 8,
+      "mudra": "Mushti",
+      "start_time": "34.97s",
+      "end_time": "38.97s",
+      "duration": "4.00s",
+      "start_frame": 1049,
+      "end_frame": 1168,
+      "average_confidence": 1.0
+    },
+    {
+      "segment_id": 9,
+      "mudra": "Shikara",
+      "start_time": "38.97s",
+      "end_time": "42.63s",
+      "duration": "3.67s",
+      "start_frame": 1169,
+      "end_frame": 1278,
+      "average_confidence": 0.945
+    },
+    {
+      "segment_id": 10,
+      "mudra": "Kapitha",
+      "start_time": "42.63s",
+      "end_time": "46.13s",
+      "duration": "3.50s",
+      "start_frame": 1279,
+      "end_frame": 1383,
+      "average_confidence": 0.927
+    },
+    {
+      "segment_id": 11,
+      "mudra": "shukatunda",
+      "start_time": "48.13s",
+      "end_time": "51.13s",
+      "duration": "3.00s",
+      "start_frame": 1444,
+      "end_frame": 1533,
+      "average_confidence": 0.98
+    },
+    {
+      "segment_id": 12,
+      "mudra": "sarpasirasha",
+      "start_time": "51.13s",
+      "end_time": "55.13s",
+      "duration": "4.00s",
+      "start_frame": 1534,
+      "end_frame": 1653,
+      "average_confidence": 0.7
+    },
+    {
+      "segment_id": 13,
+      "mudra": "Kaangulo",
+      "start_time": "55.47s",
+      "end_time": "56.30s",
+      "duration": "0.83s",
+      "start_frame": 1664,
+      "end_frame": 1688,
+      "average_confidence": 0.771
+    },
+    {
+      "segment_id": 14,
+      "mudra": "bhramara",
+      "start_time": "57.13s",
+      "end_time": "57.63s",
+      "duration": "0.50s",
+      "start_frame": 1714,
+      "end_frame": 1728,
+      "average_confidence": 0.906
+    },
+    {
+      "segment_id": 15,
+      "mudra": "Kapitha",
+      "start_time": "57.63s",
+      "end_time": "58.63s",
+      "duration": "1.00s",
+      "start_frame": 1729,
+      "end_frame": 1758,
+      "average_confidence": 0.741
+    },
+    {
+      "segment_id": 16,
+      "mudra": "Soochi",
+      "start_time": "59.63s",
+      "end_time": "66.80s",
+      "duration": "7.17s",
+      "start_frame": 1789,
+      "end_frame": 2003,
+      "average_confidence": 0.984
+    },
+    {
+      "segment_id": 17,
+      "mudra": "Kaangulo",
+      "start_time": "67.13s",
+      "end_time": "67.63s",
+      "duration": "0.50s",
+      "start_frame": 2014,
+      "end_frame": 2028,
+      "average_confidence": 0.83
+    },
+    {
+      "segment_id": 18,
       "mudra": "Alapadma",
-      "start_time": "8.25s",
-      "end_time": "10.21s",
-      "duration": "1.96s",
-      "start_frame": 354,
-      "end_frame": 437,
-      "average_confidence": 0.972
+      "start_time": "67.97s",
+      "end_time": "70.80s",
+      "duration": "2.83s",
+      "start_frame": 2039,
+      "end_frame": 2123,
+      "average_confidence": 0.918
+    },
+    {
+      "segment_id": 19,
+      "mudra": "shukatunda",
+      "start_time": "71.30s",
+      "end_time": "73.13s",
+      "duration": "1.83s",
+      "start_frame": 2139,
+      "end_frame": 2193,
+      "average_confidence": 0.961
+    },
+    {
+      "segment_id": 20,
+      "mudra": "sarpasirasha",
+      "start_time": "73.13s",
+      "end_time": "77.30s",
+      "duration": "4.17s",
+      "start_frame": 2194,
+      "end_frame": 2318,
+      "average_confidence": 0.813
+    },
+    {
+      "segment_id": 21,
+      "mudra": "mrugasirsha",
+      "start_time": "77.30s",
+      "end_time": "79.80s",
+      "duration": "2.50s",
+      "start_frame": 2319,
+      "end_frame": 2393,
+      "average_confidence": 0.928
+    },
+    {
+      "segment_id": 22,
+      "mudra": "Mayura",
+      "start_time": "80.47s",
+      "end_time": "83.97s",
+      "duration": "3.50s",
+      "start_frame": 2414,
+      "end_frame": 2518,
+      "average_confidence": 0.795
+    },
+    {
+      "segment_id": 23,
+      "mudra": "Kaangulo",
+      "start_time": "83.97s",
+      "end_time": "84.80s",
+      "duration": "0.83s",
+      "start_frame": 2519,
+      "end_frame": 2543,
+      "average_confidence": 0.801
+    },
+    {
+      "segment_id": 24,
+      "mudra": "Kaangulo",
+      "start_time": "85.47s",
+      "end_time": "88.30s",
+      "duration": "2.83s",
+      "start_frame": 2564,
+      "end_frame": 2648,
+      "average_confidence": 0.822
+    },
+    {
+      "segment_id": 25,
+      "mudra": "Alapadma",
+      "start_time": "88.30s",
+      "end_time": "89.47s",
+      "duration": "1.17s",
+      "start_frame": 2649,
+      "end_frame": 2683,
+      "average_confidence": 0.813
+    },
+    {
+      "segment_id": 26,
+      "mudra": "Hamsaaya",
+      "start_time": "89.47s",
+      "end_time": "90.13s",
+      "duration": "0.67s",
+      "start_frame": 2684,
+      "end_frame": 2703,
+      "average_confidence": 0.975
+    },
+    {
+      "segment_id": 27,
+      "mudra": "bhramara",
+      "start_time": "90.13s",
+      "end_time": "91.80s",
+      "duration": "1.67s",
+      "start_frame": 2704,
+      "end_frame": 2753,
+      "average_confidence": 0.967
+    },
+    {
+      "segment_id": 28,
+      "mudra": "Alapadma",
+      "start_time": "91.80s",
+      "end_time": "93.47s",
+      "duration": "1.67s",
+      "start_frame": 2754,
+      "end_frame": 2803,
+      "average_confidence": 0.982
+    },
+    {
+      "segment_id": 29,
+      "mudra": "Chandrakala",
+      "start_time": "93.47s",
+      "end_time": "94.30s",
+      "duration": "0.83s",
+      "start_frame": 2804,
+      "end_frame": 2828,
+      "average_confidence": 0.951
+    },
+    {
+      "segment_id": 30,
+      "mudra": "Shikara",
+      "start_time": "94.30s",
+      "end_time": "95.47s",
+      "duration": "1.17s",
+      "start_frame": 2829,
+      "end_frame": 2863,
+      "average_confidence": 0.907
+    },
+    {
+      "segment_id": 31,
+      "mudra": "bhramara",
+      "start_time": "95.63s",
+      "end_time": "96.13s",
+      "duration": "0.50s",
+      "start_frame": 2869,
+      "end_frame": 2883,
+      "average_confidence": 0.974
+    },
+    {
+      "segment_id": 32,
+      "mudra": "sarpasirasha",
+      "start_time": "96.80s",
+      "end_time": "97.63s",
+      "duration": "0.83s",
+      "start_frame": 2904,
+      "end_frame": 2928,
+      "average_confidence": 0.671
+    },
+    {
+      "segment_id": 33,
+      "mudra": "bhramara",
+      "start_time": "97.63s",
+      "end_time": "98.97s",
+      "duration": "1.33s",
+      "start_frame": 2929,
+      "end_frame": 2968,
+      "average_confidence": 0.95
+    },
+    {
+      "segment_id": 34,
+      "mudra": "sarpasirasha",
+      "start_time": "99.13s",
+      "end_time": "101.47s",
+      "duration": "2.33s",
+      "start_frame": 2974,
+      "end_frame": 3043,
+      "average_confidence": 0.682
+    },
+    {
+      "segment_id": 35,
+      "mudra": "Araala",
+      "start_time": "101.47s",
+      "end_time": "102.13s",
+      "duration": "0.67s",
+      "start_frame": 3044,
+      "end_frame": 3063,
+      "average_confidence": 0.637
+    },
+    {
+      "segment_id": 36,
+      "mudra": "shukatunda",
+      "start_time": "103.97s",
+      "end_time": "104.97s",
+      "duration": "1.00s",
+      "start_frame": 3119,
+      "end_frame": 3148,
+      "average_confidence": 0.933
+    },
+    {
+      "segment_id": 37,
+      "mudra": "mrugasirsha",
+      "start_time": "104.97s",
+      "end_time": "105.47s",
+      "duration": "0.50s",
+      "start_frame": 3149,
+      "end_frame": 3163,
+      "average_confidence": 0.888
+    },
+    {
+      "segment_id": 38,
+      "mudra": "sarpasirasha",
+      "start_time": "105.47s",
+      "end_time": "107.13s",
+      "duration": "1.67s",
+      "start_frame": 3164,
+      "end_frame": 3213,
+      "average_confidence": 0.748
+    },
+    {
+      "segment_id": 39,
+      "mudra": "mrugasirsha",
+      "start_time": "107.47s",
+      "end_time": "108.23s",
+      "duration": "0.77s",
+      "start_frame": 3224,
+      "end_frame": 3246,
+      "average_confidence": 0.909
     }
   ],
   "mudra_statistics": {
-    "Pataka": {
+    "Alapadma": {
+      "count": 4,
+      "total_duration": "6.5s"
+    },
+    "shukatunda": {
+      "count": 6,
+      "total_duration": "29.0s"
+    },
+    "Kapitha": {
+      "count": 4,
+      "total_duration": "6.8s"
+    },
+    "Chandrakala": {
+      "count": 2,
+      "total_duration": "2.2s"
+    },
+    "Mushti": {
+      "count": 1,
+      "total_duration": "4.0s"
+    },
+    "Shikara": {
+      "count": 2,
+      "total_duration": "4.8s"
+    },
+    "sarpasirasha": {
+      "count": 5,
+      "total_duration": "13.0s"
+    },
+    "Kaangulo": {
+      "count": 4,
+      "total_duration": "5.0s"
+    },
+    "bhramara": {
+      "count": 4,
+      "total_duration": "4.0s"
+    },
+    "Soochi": {
+      "count": 1,
+      "total_duration": "7.2s"
+    },
+    "mrugasirsha": {
+      "count": 3,
+      "total_duration": "3.8s"
+    },
+    "Mayura": {
+      "count": 1,
+      "total_duration": "3.5s"
+    },
+    "Hamsaaya": {
       "count": 1,
       "total_duration": "0.7s"
     },
-    "Tripataka": {
-      "count": 2,
-      "total_duration": "1.4s"
-    },
-    "Alapadma": {
-      "count": 3,
-      "total_duration": "3.9s"
+    "Araala": {
+      "count": 1,
+      "total_duration": "0.7s"
     }
   }
 }

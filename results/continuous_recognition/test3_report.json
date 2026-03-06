@@ -1,45 +1,59 @@
 {
   "video_info": {
     "filename": "test3.mp4",
-    "duration": "14.0s",
-    "fps": 30.279169649248388,
-    "total_frames": 423
+    "duration": "8.7s",
+    "fps": 37.93103448275862,
+    "total_frames": 330
   },
   "detection_summary": {
-    "total_segments": 2,
-    "unique_mudras": 2,
-    "average_confidence": 0.97
+    "total_segments": 3,
+    "unique_mudras": 3,
+    "average_confidence": 0.925
   },
   "segments": [
     {
       "segment_id": 1,
-      "mudra": "Alapadma",
-      "start_time": "0.96s",
-      "end_time": "5.75s",
-      "duration": "4.79s",
+      "mudra": "Chandrakala",
+      "start_time": "0.76s",
+      "end_time": "1.29s",
+      "duration": "0.53s",
       "start_frame": 29,
-      "end_frame": 173,
-      "average_confidence": 0.996
+      "end_frame": 48,
+      "average_confidence": 0.863
     },
     {
       "segment_id": 2,
+      "mudra": "chaturo",
+      "start_time": "1.29s",
+      "end_time": "2.21s",
+      "duration": "0.92s",
+      "start_frame": 49,
+      "end_frame": 83,
+      "average_confidence": 0.999
+    },
+    {
+      "segment_id": 3,
       "mudra": "Pataka",
-      "start_time": "13.18s",
-      "end_time": "13.97s",
-      "duration": "0.79s",
-      "start_frame": 399,
-      "end_frame": 422,
-      "average_confidence": 0.945
+      "start_time": "2.21s",
+      "end_time": "8.28s",
+      "duration": "6.06s",
+      "start_frame": 84,
+      "end_frame": 313,
+      "average_confidence": 0.912
     }
   ],
   "mudra_statistics": {
-    "Alapadma": {
+    "Chandrakala": {
       "count": 1,
-      "total_duration": "4.8s"
+      "total_duration": "0.5s"
+    },
+    "chaturo": {
+      "count": 1,
+      "total_duration": "0.9s"
     },
     "Pataka": {
       "count": 1,
-      "total_duration": "0.8s"
+      "total_duration": "6.1s"
     }
   }
 }
